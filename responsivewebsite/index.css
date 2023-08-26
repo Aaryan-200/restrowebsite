@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    margin: -14px -12px;
+}
+#logo img{
+    width: 111px;
+    
+    margin:12px 17px;
+}
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top:0px;
+    left: 0px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top:0px;
+    left: 0px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1rem;
+}
+#navbar ul li a{
+    font-family: 'Balthazar', serif;
+    display: block;
+    padding: 5px 21px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+#navbar ul li a:hover{
+    background-color:whitesmoke;
+    
+    color:black;
+}
+
+#home{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 200px;
+}
+#home::before{
+    content: "";
+    background: url(pexels-rajesh-tp-1603899.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    top:0px;
+    left: 0px;
+
+}
+#home h1{
+    color: beige;
+    text-align: center;
+    
+font-family: 'Balthazar', serif;
+
+}
+#home p{
+    color: beige;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#welcome{
+    font-size: 3.8rem;
+    padding: 14px;
+}
+#btn{
+    padding: 4px 34px;
+    border: 1px solid black;
+    background-color: #000000bd;
+    color: gainsboro;
+    margin: 20px;
+}
+#btn:hover{
+   cursor: pointer;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Balthazar', serif;
+
+}
+.h-secondary{
+    font-size: 2.2rem;
+    padding: 12px;
+    font-family: 'Balthazar', serif;
+    
+}
+#services{
+    margin: 35px;
+    display: flex;
+    text-align: center;
+
+}
+#services .box{
+    border: 2px solid black;
+    padding: 34px;
+     margin:3px 6px;
+     border-radius: 28px;
+     background: #c3c3c382;
+}
+
+#services .box img{
+    height: 155px;
+    margin: auto;
+    display: block;
+
+}
+#services .box p{
+    font-size: 0.8rem;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
